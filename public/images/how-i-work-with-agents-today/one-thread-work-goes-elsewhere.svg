@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="t d">
+  <title id="t">One thread, and the work goes elsewhere</title>
+  <desc id="d">A phone labelled inbox connects over Tailscale to a MacBook running the main thread. The MacBook hands feature work and tests to a Linux box, and long or heavy work to cloud containers.</desc>
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#4a6508"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="760" fill="#fcf0dc"/>
+
+  <text x="80" y="88" class="sans" font-size="38" font-weight="600" fill="#1c1612">One thread, and the work goes elsewhere</text>
+  <text x="80" y="130" class="sans" font-size="24" fill="#4a4038">I talk to one place. The heavy work runs somewhere else.</text>
+
+  <!-- phone -->
+  <rect x="85" y="255" width="195" height="340" rx="30" fill="#1c1612"/>
+  <rect x="103" y="285" width="159" height="280" rx="10" fill="#fff8ec"/>
+  <text x="182" y="415" class="sans" font-size="30" font-weight="600" fill="#1c1612" text-anchor="middle">Phone</text>
+  <text x="182" y="455" class="sans" font-size="26" fill="#4a4038" text-anchor="middle">inbox</text>
+
+  <!-- tailscale link -->
+  <line x1="280" y1="425" x2="485" y2="425" stroke="#685c52" stroke-width="4" stroke-dasharray="10 9"/>
+  <text x="382" y="400" class="mono" font-size="24" fill="#4a4038" text-anchor="middle">Tailscale</text>
+
+  <!-- macbook -->
+  <rect x="485" y="235" width="380" height="380" rx="18" fill="#fff8ec" stroke="#cbb9a3" stroke-width="3"/>
+  <text x="675" y="290" class="sans" font-size="30" font-weight="600" fill="#1c1612" text-anchor="middle">MacBook</text>
+  <rect x="535" y="325" width="280" height="110" rx="12" fill="#4a6508"/>
+  <text x="675" y="392" class="sans" font-size="32" font-weight="600" fill="#fcf0dc" text-anchor="middle">Main thread</text>
+  <text x="675" y="500" class="sans" font-size="25" fill="#4a4038" text-anchor="middle">reading, editing, git</text>
+  <text x="675" y="545" class="sans" font-size="25" fill="#4a4038" text-anchor="middle">one agent, all the context</text>
+
+  <!-- handoffs -->
+  <g stroke="#4a6508" stroke-width="4" fill="none" marker-end="url(#a)">
+    <line x1="865" y1="380" x2="1000" y2="295"/>
+    <line x1="865" y1="470" x2="1000" y2="555"/>
+  </g>
+
+  <!-- linux box -->
+  <rect x="1005" y="205" width="315" height="170" rx="14" fill="#e9eed2" stroke="#4a6508" stroke-width="3"/>
+  <text x="1162" y="275" class="sans" font-size="30" font-weight="600" fill="#1c1612" text-anchor="middle">Linux box</text>
+  <text x="1162" y="322" class="sans" font-size="25" fill="#4a4038" text-anchor="middle">feature work, tests</text>
+
+  <!-- containers -->
+  <rect x="1005" y="475" width="315" height="170" rx="14" fill="#e9eed2" stroke="#4a6508" stroke-width="3"/>
+  <text x="1162" y="545" class="sans" font-size="30" font-weight="600" fill="#1c1612" text-anchor="middle">Cloud containers</text>
+  <text x="1162" y="592" class="sans" font-size="25" fill="#4a4038" text-anchor="middle">long or heavy work</text>
+</svg>

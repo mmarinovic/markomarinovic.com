@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    rect { fill: #fae9cd }
+    path { fill: #0a0a0b }
+    @media (prefers-color-scheme: dark) {
+      rect { fill: #0a0a0b }
+      path { fill: #f4f4f2 }
+    }
+  </style>
+  <rect width="32" height="32" fill="#fae9cd"/>
+  <path fill="#0a0a0b" transform="matrix(0.03363 0 0 -0.03363 0.82966 27.55451)" d="M80 710H255.2L451.4 160L647 710H822.2V0H692.2V490L513.2 1.2H388.6L210 490V0H80Z"/>
+</svg>
