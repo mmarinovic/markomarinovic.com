@@ -54,7 +54,7 @@ Our support team checks every story before anything goes to print. They can redo
 
 ### The right model for each part
 
-Behind the scenes, the engine uses several models from Anthropic (Claude), Google (Gemini) and OpenAI. Each one does the part it's best at, because every model has its own strengths. We didn't guess which is which: we tested them and kept the ones that worked best for our case.
+Behind the scenes, the engine uses several models from Anthropic, Google and OpenAI. Each one does the part it's best at, because every model has its own strengths. We didn't guess which is which: we tested them and kept the ones that worked best for our case.
 
 ## What I took from it
 
