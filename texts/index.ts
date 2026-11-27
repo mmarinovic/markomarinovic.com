@@ -4,7 +4,7 @@ export const texts: Text[] = [
   {
     title: "A storybook about anything she wants",
     date: "2026-11-27",
-    description: "My daughter loves stories. With Čičamiča, the storybook app we built at blank, I can turn whatever she wants to talk about into an illustrated book and get it printed. Here's what it does and what was hard to build.",
+    description: "My daughter loves stories. With Čičamiča, the storybook app we built at blank, I can turn whatever she wants to talk about into an illustrated book, then order it printed or read the PDF on a tablet. Here's what it does and what was hard to build.",
     href: "/texts/a-storybook-about-anything-she-wants",
     track: 'ai',
   },
