@@ -40,7 +40,7 @@ This was the hardest problem. Today's image models are great at keeping a charac
 
 So we stopped painting pages one by one. The story is finished before any picture exists, and a separate planning step, not one of the three story agents, decides how the text splits into pages and what each picture shows. Then a single image model call paints every page together, as one grid, and the pages are cut out of it. Because they were painted together, the cast, the palette and the setting stay very close across the whole book. The cover is painted afterwards, with the grid as its reference, so the child on the front is the child inside.
 
-With one grid the scene stays about 99% the same. The last 1% still takes a few redos, and sometimes a manual fix.
+With one grid the scene stays almost the same on every page. Making it fully the same still takes a few redos, and sometimes a manual fix.
 
 ![Page by page versus one grid: painting pages separately lets the child and the room drift from page to page, while painting every page in one grid, cutting the pages from it and painting the cover from it keeps the cast and the setting close throughout](/images/a-storybook-about-anything-she-wants/one-grid-every-page.svg)
 
