@@ -79,5 +79,5 @@
   <use href="#kid" xlink:href="#kid" x="1177" y="440" width="90" height="90" style="--hair:#8a3a22;--top:#8e5bc4"/>
   <text x="1222" y="568" class="sans" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">cover</text>
 
-  <text x="682" y="655" class="sans" font-size="25" font-weight="600" fill="#ffe082">Close on every page; the last 1% takes redos.</text>
+  <text x="682" y="655" class="sans" font-size="25" font-weight="600" fill="#ffe082">Close on every page; the rest takes redos.</text>
 </svg>
