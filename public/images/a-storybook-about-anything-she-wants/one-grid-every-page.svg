@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 760" role="img" aria-labelledby="t d">
+  <title id="t">One grid, every page</title>
+  <desc id="d">Painted page by page, so the child's hair, clothes and the room drift from page to page. Painted together in one grid, then the pages are cut from it and the cover is painted from it, so the cast and the setting stay close throughout.</desc>
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf4ee"/><stop offset="1" stop-color="#fbf4ee"/></linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9c1458"/><stop offset="1" stop-color="#9c1458"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#c25a1a"/>
+    </marker>
+    <symbol id="kid" viewBox="0 0 100 100">
+      <path d="M22 100 Q22 66 50 66 Q78 66 78 100Z" fill="var(--top)"/>
+      <circle cx="50" cy="42" r="23" fill="#f2c9a5"/>
+      <path d="M25 46 Q22 14 50 14 Q78 14 75 46 Q72 30 60 26 Q48 34 30 32 Q26 38 25 46Z" fill="var(--hair)"/>
+      <path d="M25 44 L23 64 L31 62 Z M75 44 L77 64 L69 62Z" fill="var(--hair)"/>
+      <circle cx="42" cy="44" r="2.6" fill="#1c1612"/><circle cx="58" cy="44" r="2.6" fill="#1c1612"/>
+      <circle cx="36" cy="52" r="4" fill="#f0a08a" opacity=".7"/><circle cx="64" cy="52" r="4" fill="#f0a08a" opacity=".7"/>
+    </symbol>
+  </defs>
+  <rect width="1400" height="760" fill="url(#bg)"/>
+
+  <text x="80" y="88" class="sans" font-size="38" font-weight="600" fill="#2a0814">One grid, every page</text>
+  <text x="80" y="130" class="sans" font-size="24" fill="#6b4a57">Painted together, so the cast and the setting stay close</text>
+
+  <rect x="60" y="165" width="560" height="540" rx="18" fill="#ffffff" stroke="#e6d6dc" stroke-width="2"/>
+  <rect x="650" y="165" width="690" height="540" rx="18" fill="#ffffff" stroke="#e6d6dc" stroke-width="2"/>
+
+  <text x="92" y="215" class="sans" font-size="28" font-weight="600" fill="#c2410c">Page by page</text>
+  <text x="682" y="215" class="sans" font-size="28" font-weight="600" fill="#b45309">One grid, then cut</text>
+
+  <!-- before: three separately painted pages -->
+  <g>
+    <rect x="95" y="265" width="150" height="190" rx="10" fill="#fffaf6" stroke="#d8c4cc" stroke-width="3"/>
+    <use href="#kid" xlink:href="#kid" x="110" y="300" width="120" height="120" style="--hair:#8a3a22;--top:#8e5bc4"/>
+    <text x="170" y="487" class="sans" font-size="21" fill="#6b4a57" text-anchor="middle">page 1</text>
+
+    <rect x="265" y="265" width="150" height="190" rx="10" fill="#fffaf6" stroke="#d8c4cc" stroke-width="3"/>
+    <use href="#kid" xlink:href="#kid" x="280" y="300" width="120" height="120" style="--hair:#e0b25a;--top:#4f86c6"/>
+    <text x="340" y="487" class="sans" font-size="21" fill="#6b4a57" text-anchor="middle">page 2</text>
+
+    <rect x="435" y="265" width="150" height="190" rx="10" fill="#fffaf6" stroke="#d8c4cc" stroke-width="3"/>
+    <use href="#kid" xlink:href="#kid" x="450" y="300" width="120" height="120" style="--hair:#2c211b;--top:#d9603f"/>
+    <text x="510" y="487" class="sans" font-size="21" fill="#6b4a57" text-anchor="middle">page 3</text>
+  </g>
+  <text x="92" y="565" class="sans" font-size="25" fill="#2a0814">One model call per page.</text>
+  <text x="92" y="602" class="sans" font-size="25" fill="#2a0814">Hair, clothes and rooms drift.</text>
+  <text x="92" y="655" class="sans" font-size="25" font-weight="600" fill="#c2410c">A different look on every page.</text>
+
+  <!-- now: one sheet, 4 x 3 -->
+  <rect x="690" y="255" width="380" height="290" rx="12" fill="#fffaf6" stroke="#c25a1a" stroke-width="3"/>
+  <g style="--hair:#8a3a22;--top:#8e5bc4">
+    <use href="#kid" xlink:href="#kid" x="707" y="272" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="797" y="272" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="887" y="272" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="977" y="272" width="80" height="80"/>
+    <use href="#kid" xlink:href="#kid" x="707" y="362" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="797" y="362" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="887" y="362" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="977" y="362" width="80" height="80"/>
+    <use href="#kid" xlink:href="#kid" x="707" y="452" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="797" y="452" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="887" y="452" width="80" height="80"/><use href="#kid" xlink:href="#kid" x="977" y="452" width="80" height="80"/>
+  </g>
+  <g stroke="#d81b60" stroke-width="2" stroke-dasharray="7 6">
+    <line x1="792" y1="262" x2="792" y2="538"/><line x1="882" y1="262" x2="882" y2="538"/><line x1="972" y1="262" x2="972" y2="538"/>
+    <line x1="697" y1="357" x2="1063" y2="357"/><line x1="697" y1="447" x2="1063" y2="447"/>
+  </g>
+  <text x="880" y="585" class="sans" font-size="22" fill="#6b4a57" text-anchor="middle">one image call paints every page</text>
+
+  <!-- cut into pages; cover painted from the grid -->
+  <g stroke="#c25a1a" stroke-width="4" fill="none" marker-end="url(#a)">
+    <line x1="1078" y1="340" x2="1140" y2="320"/>
+    <line x1="1078" y1="460" x2="1140" y2="480"/>
+  </g>
+  <rect x="1160" y="250" width="140" height="130" rx="10" fill="#fffaf6" stroke="#d8c4cc" stroke-width="3"/>
+  <rect x="1152" y="258" width="140" height="130" rx="10" fill="#fffaf6" stroke="#d8c4cc" stroke-width="3"/>
+  <use href="#kid" xlink:href="#kid" x="1182" y="268" width="80" height="80" style="--hair:#8a3a22;--top:#8e5bc4"/>
+  <text x="1222" y="372" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">pages</text>
+
+  <rect x="1152" y="420" width="140" height="170" rx="10" fill="url(#agent)"/>
+  <use href="#kid" xlink:href="#kid" x="1177" y="440" width="90" height="90" style="--hair:#8a3a22;--top:#8e5bc4"/>
+  <text x="1222" y="568" class="sans" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">cover</text>
+
+  <text x="682" y="655" class="sans" font-size="25" font-weight="600" fill="#b45309">Close on every page; the rest takes redos.</text>
+</svg>
