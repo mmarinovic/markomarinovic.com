@@ -6,7 +6,7 @@ export const navLinks = [
   { href: '/texts', label: 'Texts' },
 ] as const
 
-export type ProjectIcon = 'blank' | 'lisk' | 'cicamica' | 'totebot' | 'dobartek' | 'database' | 'cloud'
+export type ProjectIcon = 'blank' | 'lisk' | 'cicamica' | 'totebot' | 'dobartek' | 'crayonCastle' | 'dotfiles' | 'database' | 'cloud'
 
 export interface Project {
   name: string
@@ -68,6 +68,20 @@ export const projects: Project[] = [
     icon: 'cloud',
     tag: 'Open source',
     meta: '443★',
+  },
+  {
+    name: 'Crayon Castle',
+    href: 'https://crayon-castle.vercel.app',
+    desc: 'A colouring game for kids, built with Effect.',
+    icon: 'crayonCastle',
+    tag: 'Open source',
+  },
+  {
+    name: '.dotfiles',
+    href: 'https://github.com/mmarinovic/.dotfiles',
+    desc: 'My Mac setup: apps, dotfiles and Claude skills, managed by one CLI.',
+    icon: 'dotfiles',
+    tag: 'Open source',
   },
 ]
 
