@@ -18,7 +18,7 @@ You can try it at [cicamica.hr](https://cicamica.hr). The app and the stories ar
 
 ## Technical difficulties and challenges
 
-Asking a model for a bedtime story takes one prompt. Getting a book a parent will pay for, read aloud and keep takes a lot more. These were the hard parts. I wrote the long version on the blank blog: [How we built Čičamiča](https://blankhq.co/blog/how-we-built-cicamica).
+Asking a model for a bedtime story takes one prompt. Getting a book a parent will pay for, read aloud and keep takes a lot more. These were the hard parts.
 
 ### One prompt gives you the most predictable story
 
