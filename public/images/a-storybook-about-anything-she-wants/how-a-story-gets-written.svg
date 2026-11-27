@@ -6,90 +6,97 @@
     .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
   </style>
   <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c0a3a"/><stop offset=".5" stop-color="#2a0814"/><stop offset="1" stop-color="#3a1206"/>
+    </linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8e24aa"/><stop offset=".55" stop-color="#d81b60"/><stop offset="1" stop-color="#f4511e"/>
+    </linearGradient>
     <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#685c52"/>
+      <path d="M0 0L10 5L0 10z" fill="#ffb38a"/>
     </marker>
   </defs>
-  <rect width="1400" height="760" fill="#fcf0dc"/>
+  <rect width="1400" height="760" fill="url(#bg)"/>
 
-  <text x="80" y="88" class="sans" font-size="38" font-weight="600" fill="#1c1612">How a story gets written</text>
-  <text x="80" y="130" class="sans" font-size="24" fill="#4a4038">Three agents, and code where code is better than a model</text>
+  <text x="80" y="88" class="sans" font-size="38" font-weight="600" fill="#ffffff">How a story gets written</text>
+  <text x="80" y="130" class="sans" font-size="24" fill="#f6d9e4">Three agents, and code where code is better than a model</text>
 
   <!-- legend -->
-  <rect x="925" y="66" width="26" height="26" rx="6" fill="#4a6508"/>
-  <text x="961" y="87" class="sans" font-size="22" fill="#4a4038">agent</text>
-  <rect x="1060" y="66" width="26" height="26" rx="6" fill="#fff8ec" stroke="#b8432a" stroke-width="3" stroke-dasharray="6 5"/>
-  <text x="1096" y="87" class="sans" font-size="22" fill="#4a4038">plain code</text>
+  <rect x="925" y="66" width="26" height="26" rx="6" fill="url(#agent)"/>
+  <text x="961" y="87" class="sans" font-size="22" fill="#f6d9e4">agent</text>
+  <rect x="1060" y="66" width="26" height="26" rx="6" fill="none" stroke="#ffe082" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="1096" y="87" class="sans" font-size="22" fill="#f6d9e4">plain code</text>
 
   <!-- 1 wishes -->
-  <rect x="60" y="300" width="180" height="200" rx="16" fill="#fff8ec" stroke="#cbb9a3" stroke-width="3"/>
-  <text x="150" y="370" class="sans" font-size="27" font-weight="600" fill="#1c1612" text-anchor="middle">Parent's</text>
-  <text x="150" y="404" class="sans" font-size="27" font-weight="600" fill="#1c1612" text-anchor="middle">wishes</text>
-  <text x="150" y="448" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">age, hero, cast,</text>
-  <text x="150" y="474" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">what it's about</text>
+  <rect x="60" y="300" width="180" height="200" rx="16" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".35" stroke-width="3"/>
+  <text x="150" y="370" class="sans" font-size="27" font-weight="600" fill="#ffffff" text-anchor="middle">Parent's</text>
+  <text x="150" y="404" class="sans" font-size="27" font-weight="600" fill="#ffffff" text-anchor="middle">wishes</text>
+  <text x="150" y="448" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">age, hero, cast,</text>
+  <text x="150" y="474" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">what it's about</text>
 
   <!-- 2 five starting points -->
-  <rect x="280" y="250" width="190" height="300" rx="16" fill="#4a6508"/>
-  <text x="375" y="292" class="sans" font-size="23" font-weight="600" fill="#fcf0dc" text-anchor="middle">Agent 1</text>
-  <g fill="#e9eed2">
+  <rect x="280" y="250" width="190" height="300" rx="16" fill="url(#agent)"/>
+  <text x="375" y="292" class="sans" font-size="23" font-weight="600" fill="#ffffff" text-anchor="middle">Agent 1</text>
+  <g fill="#2a0814" fill-opacity=".38">
     <rect x="305" y="312" width="140" height="34" rx="7"/>
     <rect x="305" y="354" width="140" height="34" rx="7"/>
-    <rect x="305" y="396" width="140" height="34" rx="7" fill="#fcf0dc" stroke="#e3b341" stroke-width="4"/>
     <rect x="305" y="438" width="140" height="34" rx="7"/>
     <rect x="305" y="480" width="140" height="34" rx="7"/>
   </g>
-  <g class="mono" font-size="19" fill="#1c1612" text-anchor="middle">
-    <text x="375" y="336">start 1</text><text x="375" y="378">start 2</text><text x="375" y="420" font-weight="700">start 3</text><text x="375" y="462">start 4</text><text x="375" y="504">start 5</text>
+  <rect x="305" y="396" width="140" height="34" rx="7" fill="#ffe082"/>
+  <g class="mono" font-size="19" fill="#ffffff" text-anchor="middle">
+    <text x="375" y="336">start 1</text><text x="375" y="378">start 2</text><text x="375" y="462">start 4</text><text x="375" y="504">start 5</text>
   </g>
-  <text x="375" y="585" class="sans" font-size="21" fill="#4a4038" text-anchor="middle">five starting points</text>
+  <text x="375" y="420" class="mono" font-size="19" font-weight="700" fill="#2a0814" text-anchor="middle">start 3</text>
+  <text x="375" y="585" class="sans" font-size="21" fill="#f6d9e4" text-anchor="middle">five starting points</text>
 
   <!-- 3 random pick -->
-  <rect x="510" y="330" width="150" height="140" rx="16" fill="#fff8ec" stroke="#b8432a" stroke-width="3" stroke-dasharray="10 8"/>
-  <rect x="560" y="352" width="50" height="50" rx="9" fill="#fcf0dc" stroke="#1c1612" stroke-width="3"/>
-  <g fill="#1c1612"><circle cx="573" cy="365" r="4.5"/><circle cx="585" cy="377" r="4.5"/><circle cx="597" cy="389" r="4.5"/></g>
-  <text x="585" y="432" class="sans" font-size="22" font-weight="600" fill="#1c1612" text-anchor="middle">pick one</text>
-  <text x="585" y="456" class="sans" font-size="22" font-weight="600" fill="#1c1612" text-anchor="middle">at random</text>
-  <text x="585" y="510" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">a model would</text>
-  <text x="585" y="536" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">pick the safest</text>
+  <rect x="510" y="330" width="150" height="140" rx="16" fill="#ffe082" fill-opacity=".06" stroke="#ffe082" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="560" y="352" width="50" height="50" rx="9" fill="#2a0814" stroke="#ffe082" stroke-width="3"/>
+  <g fill="#ffe082"><circle cx="573" cy="365" r="4.5"/><circle cx="585" cy="377" r="4.5"/><circle cx="597" cy="389" r="4.5"/></g>
+  <text x="585" y="432" class="sans" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">pick one</text>
+  <text x="585" y="456" class="sans" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">at random</text>
+  <text x="585" y="510" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">a model would</text>
+  <text x="585" y="536" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">pick the safest</text>
 
   <!-- 4 four drafts -->
-  <rect x="700" y="250" width="190" height="300" rx="16" fill="#4a6508"/>
-  <text x="795" y="292" class="sans" font-size="23" font-weight="600" fill="#fcf0dc" text-anchor="middle">Agent 2</text>
-  <g fill="#e9eed2">
+  <rect x="700" y="250" width="190" height="300" rx="16" fill="url(#agent)"/>
+  <text x="795" y="292" class="sans" font-size="23" font-weight="600" fill="#ffffff" text-anchor="middle">Agent 2</text>
+  <g fill="#2a0814" fill-opacity=".38">
     <rect x="725" y="315" width="140" height="44" rx="7"/>
     <rect x="725" y="369" width="140" height="44" rx="7"/>
     <rect x="725" y="423" width="140" height="44" rx="7"/>
     <rect x="725" y="477" width="140" height="44" rx="7"/>
   </g>
-  <g class="mono" font-size="19" fill="#1c1612" text-anchor="middle">
+  <g class="mono" font-size="19" fill="#ffffff" text-anchor="middle">
     <text x="795" y="344">draft A</text><text x="795" y="398">draft B</text><text x="795" y="452">draft C</text><text x="795" y="506">draft D</text>
   </g>
-  <text x="795" y="585" class="sans" font-size="21" fill="#4a4038" text-anchor="middle">four drafts in parallel</text>
+  <text x="795" y="585" class="sans" font-size="21" fill="#f6d9e4" text-anchor="middle">four drafts in parallel</text>
 
   <!-- 5 code filter -->
-  <rect x="930" y="330" width="150" height="140" rx="16" fill="#fff8ec" stroke="#b8432a" stroke-width="3" stroke-dasharray="10 8"/>
-  <text x="1005" y="385" class="sans" font-size="22" font-weight="600" fill="#1c1612" text-anchor="middle">drop what</text>
-  <text x="1005" y="411" class="sans" font-size="22" font-weight="600" fill="#1c1612" text-anchor="middle">won't print</text>
-  <text x="1005" y="447" class="mono" font-size="17" fill="#b8432a" text-anchor="middle">long title ✗</text>
-  <text x="1005" y="510" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">then shuffle,</text>
-  <text x="1005" y="536" class="sans" font-size="20" fill="#4a4038" text-anchor="middle">so order is no hint</text>
+  <rect x="930" y="330" width="150" height="140" rx="16" fill="#ffe082" fill-opacity=".06" stroke="#ffe082" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="1005" y="385" class="sans" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">drop what</text>
+  <text x="1005" y="411" class="sans" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">won't print</text>
+  <text x="1005" y="447" class="mono" font-size="17" fill="#ff8a65" text-anchor="middle">long title ✗</text>
+  <text x="1005" y="510" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">then shuffle,</text>
+  <text x="1005" y="536" class="sans" font-size="20" fill="#f6d9e4" text-anchor="middle">so order is no hint</text>
 
   <!-- 6 judge -->
-  <rect x="1120" y="250" width="220" height="300" rx="16" fill="#4a6508"/>
-  <text x="1230" y="292" class="sans" font-size="23" font-weight="600" fill="#fcf0dc" text-anchor="middle">Agent 3, the judge</text>
-  <g class="sans" font-size="20" fill="#fcf0dc">
+  <rect x="1120" y="250" width="220" height="300" rx="16" fill="url(#agent)"/>
+  <text x="1230" y="292" class="sans" font-size="23" font-weight="600" fill="#ffffff" text-anchor="middle">Agent 3, the judge</text>
+  <g class="sans" font-size="20" fill="#ffffff">
     <text x="1146" y="336">ranks against:</text>
     <text x="1146" y="368">· the parent's brief</text>
     <text x="1146" y="396">· the child's age</text>
     <text x="1146" y="424">· story craft</text>
     <text x="1146" y="452">· safety rules</text>
   </g>
-  <rect x="1146" y="474" width="168" height="50" rx="9" fill="#fcf0dc" stroke="#e3b341" stroke-width="4"/>
-  <text x="1230" y="507" class="sans" font-size="22" font-weight="600" fill="#1c1612" text-anchor="middle">winner, printed</text>
-  <text x="1230" y="585" class="sans" font-size="21" fill="#4a4038" text-anchor="middle">exactly as written</text>
+  <rect x="1146" y="474" width="168" height="50" rx="9" fill="#ffe082"/>
+  <text x="1230" y="507" class="sans" font-size="22" font-weight="600" fill="#2a0814" text-anchor="middle">winner, printed</text>
+  <text x="1230" y="585" class="sans" font-size="21" fill="#f6d9e4" text-anchor="middle">exactly as written</text>
 
   <!-- arrows -->
-  <g stroke="#685c52" stroke-width="4" fill="none" marker-end="url(#a)">
+  <g stroke="#ffb38a" stroke-width="4" fill="none" marker-end="url(#a)">
     <line x1="242" y1="400" x2="274" y2="400"/>
     <line x1="472" y1="400" x2="504" y2="400"/>
     <line x1="662" y1="400" x2="694" y2="400"/>
@@ -97,5 +104,5 @@
     <line x1="1082" y1="400" x2="1114" y2="400"/>
   </g>
 
-  <text x="80" y="680" class="sans" font-size="23" fill="#4a4038">One prompt, one story gives you the model's most predictable idea, every time.</text>
+  <text x="80" y="680" class="sans" font-size="23" fill="#f6d9e4">One prompt, one story gives you the model's most predictable idea, every time.</text>
 </svg>

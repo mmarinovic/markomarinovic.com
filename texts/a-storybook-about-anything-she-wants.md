@@ -14,7 +14,11 @@ The one in the photo is about a little sparrow on her balcony.
 
 Čičamiča is a product we built at [blank](https://blankhq.co), and we built it for our own kids first. Most personalised children's books are one book for everyone, with a different name dropped into the same sentences. Kids notice. We wanted a story that's really about them, with their pets, their grandparents, their favourite toys, and a real printed book at the end.
 
+![A Čičamiča cover annotated with what the parent wrote: Roko, his friend Luka, his dinosaur Dino, his favourite shirt and his word for helicopter, "hepikopter", all drawn on the cover](/images/a-storybook-about-anything-she-wants/what-a-parent-writes.jpg)
+
 You can try it at [cicamica.hr](https://cicamica.hr). The app and the stories are in Croatian.
+
+![Three Čičamiča covers from cicamica.hr: a boy riding a donkey through a village at midnight, two girls chasing a runaway cookie through a snowy forest, and a boy flying with a seagull and a snowflake over Split](/images/a-storybook-about-anything-she-wants/three-books.jpg)
 
 ## Technical difficulties and challenges
 
