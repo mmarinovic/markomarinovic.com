@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       authors: [author],
       publishedTime: text.date,
-      images: ['/og.jpg'],
+      images: [text.image ?? '/og.jpg'],
     },
   }
 }
