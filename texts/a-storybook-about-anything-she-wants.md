@@ -6,7 +6,7 @@ description: "My daughter loves stories, and with Čičamiča, the app we built 
 
 My daughter loves stories. Every evening there's one more, and the story she wants is rarely the one we have on the shelf. It's about whatever she's thinking about that day.
 
-Now I can give her exactly that story. I write down what she wants to talk about and who should be in it, and Čičamiča writes and illustrates a book where she's the hero. Then I can order it as a printed book for the shelf, or download the PDF and read it with her on the tablet. And when she wants to, she makes one herself on the tablet.
+Now I can give her exactly that story. I write down what she wants to talk about and who should be in it, and Čičamiča writes and illustrates a book where she's the hero. Then I can order it as a printed book for the shelf, or download the PDF and read it with her on the tablet. And sometimes we make one together: we go through the app on the tablet side by side, and she decides what goes in.
 
 The one in the photo is about a little sparrow on her balcony.
 
