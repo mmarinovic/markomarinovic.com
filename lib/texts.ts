@@ -14,6 +14,8 @@ export interface Text {
   track: TextTrack
   work?: boolean
   draft?: boolean
+  /** Share image for this text; falls back to the site's /og.jpg. */
+  image?: `/${string}`
 }
 
 export const trackLabels: Record<TextTrack, string> = {
@@ -60,6 +62,7 @@ export const getText = cache(async (slug: string) => {
     description: asString(data.description) || entry.description,
     externalUrl: asString(data.externalUrl) || undefined,
     label: trackLabels[entry.track],
+    image: entry.image,
     body: content,
   }
 })

@@ -7,6 +7,7 @@ export const texts: Text[] = [
     description: "My daughter loves stories, and with Čičamiča, the app we built at blank, I can turn whatever she wants into an illustrated book, printed or on a tablet. Here's what was hard to build.",
     href: "/texts/a-storybook-about-anything-she-wants",
     track: 'ai',
+    image: "/images/a-storybook-about-anything-she-wants/og.jpg",
   },
   {
     title: "Stop trying to remember your codebase",

@@ -40,9 +40,15 @@ This was the hardest problem. Today's image models are great at keeping a charac
 
 So we stopped painting pages one by one. The story is finished before any picture exists, and a separate planning step, not one of the three story agents, decides how the text splits into pages and what each picture shows. Then a single image model call paints every page together, as one grid, and the pages are cut out of it. Because they were painted together, the cast, the palette and the setting stay very close across the whole book. The cover is painted afterwards, with the grid as its reference, so the child on the front is the child inside.
 
+Then the book checks itself. Another model looks at the grid for three things only: a character who doesn't look like themselves, something physically impossible, or a broken panel. One more call repairs those pages, and anything still wrong is flagged for a person.
+
 With one grid the scene stays almost the same on every page. Making it fully the same still takes a few redos, and sometimes a manual fix.
 
 ![Page by page versus one grid: painting pages separately lets the child and the room drift from page to page, while painting every page in one grid, cutting the pages from it and painting the cover from it keeps the cast and the setting close throughout](/images/a-storybook-about-anything-she-wants/one-grid-every-page.svg)
+
+### Her name, in seven cases
+
+Croatian changes names by case. Petar becomes Petra, Petru, Petrom. So before the story is written, the parent sees the child's name in all seven cases, each in a short example sentence, and can fix any of them. Families don't all say names the same way, and the book should sound like home.
 
 ### Safe and right for her age
 
