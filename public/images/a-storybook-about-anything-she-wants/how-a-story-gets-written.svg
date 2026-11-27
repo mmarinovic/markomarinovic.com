@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="t d">
   <title id="t">How a story gets written</title>
-  <desc id="d">The parent's wishes go to a first agent that proposes five starting points. Code picks one at random. A second agent writes four drafts in parallel. Code throws out drafts that won't print well. A judge agent ranks the rest, and the best one goes to review.</desc>
+  <desc id="d">The parent's wishes go to a first agent that proposes five starting points. Code picks one at random. A second agent writes four drafts in parallel. Code throws out drafts that won't print well. A judge agent ranks the rest, and the best one becomes the book's text.</desc>
   <style>
     .sans { font-family: ui-sans-serif, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -93,7 +93,7 @@
   </g>
   <rect x="1146" y="474" width="168" height="50" rx="9" fill="#ffe082"/>
   <text x="1230" y="507" class="sans" font-size="22" font-weight="600" fill="#2a0814" text-anchor="middle">winner</text>
-  <text x="1230" y="585" class="sans" font-size="21" fill="#f6d9e4" text-anchor="middle">goes to review</text>
+  <text x="1230" y="585" class="sans" font-size="21" fill="#f6d9e4" text-anchor="middle">becomes the book</text>
 
   <!-- arrows -->
   <g stroke="#ffb38a" stroke-width="4" fill="none" marker-end="url(#a)">

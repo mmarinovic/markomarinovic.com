@@ -26,31 +26,31 @@ Asking a model for a bedtime story takes one prompt. Getting a book a parent wil
 
 ### One prompt gives you the most predictable story
 
-So a story is written in stages, by three different agents.
+So a story is written in stages, by three agents.
 
 The first agent reads the parent's wishes and proposes five different starting points. Then the code, not the model, picks one at random. When a model chooses, it picks the safest option, and randomness is what keeps the stories surprising.
 
-A second agent writes four complete drafts of that story in parallel, sized for the child's age. Plain code throws out drafts that wouldn't print well, like a title too long for the cover. Then a third agent, the judge, ranks the drafts, shuffled so their order is no hint, against the parent's brief, the age, how a good story is built and the safety rules. The best one becomes the book's text, and then it goes to review.
+A second agent writes four complete drafts of that story in parallel, sized for the child's age. Plain code throws out drafts that wouldn't print well, like a title too long for the cover. Then a third agent, the judge, ranks the drafts, shuffled so their order is no hint, against the parent's brief, the age, how a good story is built and the safety rules. The best one becomes the book's text.
 
-![How a story gets written: the parent's wishes go to an agent that proposes five starting points, code picks one at random, a second agent writes four drafts in parallel, code filters out drafts that won't print, and a judge agent picks the winner, which goes to review](/images/a-storybook-about-anything-she-wants/how-a-story-gets-written.svg)
+![How a story gets written: the parent's wishes go to an agent that proposes five starting points, code picks one at random, a second agent writes four drafts in parallel, code filters out drafts that won't print, and a judge agent picks the winner, which becomes the book's text](/images/a-storybook-about-anything-she-wants/how-a-story-gets-written.svg)
 
 ### The same world on every page
 
 This was the hardest problem. Today's image models are great at keeping a character consistent across a few pictures, but not across a whole book. And the character is only half of it. You also want the scene to stay the same: if the story happens in the living room, that living room should look the same on every page: the same sofa, the same window, the same rug.
 
-So we stopped painting pages one by one. The story is finished before any picture exists, and a separate planning step, not one of the three story agents, decides how the text splits into pages and what each picture shows. Then a single image model call paints every page together, as one grid, and the pages are cut out of it. Because they were painted together, the cast, the palette and the setting stay very close across the whole book. The cover is painted from the same grid, so the child on the front is the child inside.
+So we stopped painting pages one by one. The story is finished before any picture exists, and a separate planning step, not one of the three story agents, decides how the text splits into pages and what each picture shows. Then a single image model call paints every page together, as one grid, and the pages are cut out of it. Because they were painted together, the cast, the palette and the setting stay very close across the whole book. The cover is painted afterwards, with the grid as its reference, so the child on the front is the child inside.
 
 With one grid the scene stays about 99% the same. The last 1% still takes a few redos, and sometimes a manual fix.
 
-![Page by page versus one grid: painting pages separately lets the child and the room drift from page to page, while painting every page in one grid and cutting the pages and cover from it keeps the cast and the setting close throughout](/images/a-storybook-about-anything-she-wants/one-grid-every-page.svg)
+![Page by page versus one grid: painting pages separately lets the child and the room drift from page to page, while painting every page in one grid, cutting the pages from it and painting the cover from it keeps the cast and the setting close throughout](/images/a-storybook-about-anything-she-wants/one-grid-every-page.svg)
 
 ### Safe and right for her age
 
-A three-year-old and an eight-year-old need very different stories, and whatever a parent types in, the story has to be safe for a child. The age band shapes every draft, the judge checks the safety rules, and a person reads every story before it's printed.
+A three-year-old and an eight-year-old need very different stories, and whatever a parent types in, the story has to be safe for a child. The age band shapes every draft, and the judge checks the safety rules.
 
-### People check every story before it's printed
+### People have the last word before print
 
-Our support team checks every story before anything goes to print. They can redo or edit a single page, repaint the cover, or repaint the whole grid with a note. Parents can also edit the text and send feedback on any page before the book goes to print, and the team fixes it and sends the updated book back.
+Before the printed book is made, parents can read it, edit the text and send feedback on any page. Our team reviews every change a parent asks for before the print version. They can redo or edit a single page, repaint the cover, or repaint the whole grid with a note, and then send the updated book back.
 
 ### The right model for each part
 
