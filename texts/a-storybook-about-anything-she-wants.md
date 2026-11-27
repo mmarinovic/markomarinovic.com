@@ -1,12 +1,12 @@
 ---
 title: "A storybook about anything she wants"
 date: "2026-11-27"
-description: "My daughter loves stories. With Čičamiča, the storybook app we built at blank, I can turn whatever she wants to talk about into an illustrated book and get it printed. Here's what it does and what was hard to build."
+description: "My daughter loves stories. With Čičamiča, the storybook app we built at blank, I can turn whatever she wants to talk about into an illustrated book, then order it printed or read the PDF on a tablet. Here's what it does and what was hard to build."
 ---
 
 My daughter loves stories. Every evening there's one more, and the story she wants is rarely the one we have on the shelf. It's about whatever she's thinking about that day.
 
-Now it's very easy for me to give her exactly that story. I write down what she wants to talk about and who should be in it, and Čičamiča writes and illustrates a book where she's the hero. If she loves it, I order it as a printed book, and it goes on the shelf next to the others.
+Now it's very easy for me to give her exactly that story. I write down what she wants to talk about and who should be in it, and Čičamiča writes and illustrates a book where she's the hero. Then I can order it as a printed book for the shelf, or download the PDF and read it with her on the tablet.
 
 The one in the photo is about a little sparrow on her balcony.
 
