@@ -44,9 +44,9 @@ Parents can upload a photo to guide the look, but they don't have to. The browse
 
 A three-year-old and an eight-year-old need very different stories, and whatever a parent types into the wizard, nothing inappropriate can reach a child. The age band shapes every draft, the judge checks the safety rules, and an editor can review every book before it's printed. Editors can regenerate or edit a single page, repaint the cover, or repaint the whole grid with a note. Parents can flag a page too.
 
-### Models change every few months
+### The right model for each part
 
-Every step asks for a role, like story writer or judge, not for a specific model. Admins pick which provider and model runs each role, from OpenAI, Anthropic or Google, in the dashboard. A better model is a setting, not a rewrite. Every call is traced, so when a story is weak we can see exactly which step went wrong and what it cost. And no AI work starts until an order is paid.
+Behind the scenes, the engine uses several models from Anthropic (Claude), Google (Gemini) and OpenAI. Each one does the part it's best at, because every model has its own strengths. We didn't guess which is which: we tested them and kept the ones that worked best for our case.
 
 ## What I took from it
 
