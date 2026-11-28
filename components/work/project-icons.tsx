@@ -46,12 +46,35 @@ function DobartekIcon({ className }: IconProps) {
   )
 }
 
+function CrayonCastleIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" strokeWidth="7" strokeLinejoin="round" strokeLinecap="round" className={className} aria-hidden="true">
+      <path d="M36 62 H46 V56 M74 56 V62 H84" />
+      <path d="M12 108 V50 L24 22 L36 50 V108 Z" />
+      <path d="M84 108 V50 L96 22 L108 50 V108 Z" />
+      <path d="M46 108 V36 L60 6 L74 36 V108 Z" />
+      <path d="M4 108 H116" />
+    </svg>
+  )
+}
+
+function DotfilesIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="96 120 300 272" className={className} aria-hidden="true">
+      <polyline points="148,168 252,256 148,344" fill="none" stroke="currentColor" strokeWidth="46" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="348" cy="331" r="36" fill="currentColor" />
+    </svg>
+  )
+}
+
 export const projectIcons: Record<ProjectIcon, ComponentType<IconProps>> = {
   blank: BlankIcon,
   lisk: LiskIcon,
   cicamica: CicamicaIcon,
   totebot: TotebotIcon,
   dobartek: DobartekIcon,
+  crayonCastle: CrayonCastleIcon,
+  dotfiles: DotfilesIcon,
   database: Database,
   cloud: Cloud,
 }
